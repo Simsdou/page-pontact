@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>resume</title>
+		<link rel="stylesheet" type="text/css" href="cv.css">
+		<script type="text/javascript">
+			function mafunction() {
+			// var prénom=document.form["contact"]["message"].value;
+			// alert("Hello"+prenom);
+			// return false;
+			//}
+				var td monPrenom = "Simon"
+				alert("Bonjour"+monPrenom);
+
+				var td= "A";
+				if(td=="A") {
+				alert("tda");
+			
+				}
+				else if (td=="B") {
+				alert("tdb");
+				}
+				else if (td=="C") {
+				alert("tdc");
+				}
+				else if (td=="D") {
+				alert("tdd");
+				}
+				else {
+				alert("tde")
+				}
+				return false;
+			}
+		
+
+		</script>
+
+
+	</head>
+
+	<body>
+		<h1>Formulaire de contact</h1>
+		Nom :<br>
+
+		<Form action="mailto:votreadresse@skema.edu"method="post"
+		onsubmit="return mafunction()">
+			<input type="text"name="nom"autofocus placeholder="Nom Prenom"><br>
+			Adresse mail:<br>
+			<input type="text"name="nom"autofocus placeholder="xxxxx@xxxx.xxx"><br>
+			T&eacutel&eacutephone:<br>
+			<input type="text"name="tel"autofocus placeholder="06...."><br>
+			M.:<input type="radio"name="civ">
+			Mme:<input type="radio"name="civ"><br>
+			Mesages:<br>
+			<textarea name="Message"autofocus placeholder="Message"></textarea><br>
+			Pays:<select>
+				<option>FR</option>
+				<option>UK</option>
+			</select><br><br>
+			<input type="checkbox"> Jevous autorise &agrave conserver un exemplaire<br><br>
+			<input type="submit">
+		<Form>
+
+		<a href="index.html">Retour</a>
+	</body>
+</html>
